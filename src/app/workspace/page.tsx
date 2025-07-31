@@ -14,7 +14,7 @@ import { useResponsive } from '@/lib/hooks/useResponsive';
 import { useTouchButton } from '@/lib/hooks/useTouchFriendly';
 import { useUIStore } from '@/lib/store';
 
-export default function Home() {
+export default function WorkspacePage() {
   const { ui, toggleInsightPanel } = useUIStore();
   const { mobile, tablet, desktop } = useResponsive();
   const bottomSheet = useBottomSheet(false);
